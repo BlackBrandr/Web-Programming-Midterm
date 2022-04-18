@@ -1,0 +1,310 @@
+body {
+    background-color:darkseagreen;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+.header{
+    background-color:darkslategray;
+    overflow: hidden;
+    padding: 30px 20px;
+    text-align: center;
+    border: 2px;
+    border-radius: 8px;
+}
+
+.header a {
+    float: right;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.header a.hoverable:hover { 
+  background-color: orange;
+}
+
+.header a.home-logo{
+    float: left;
+}
+
+.header input[type=text] {
+    padding: 6px;
+    height: 25px;
+    width: 50%;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+  .header button {
+    margin-top: 100px;
+    background-color:darkseagreen;
+    border: none;
+    color: darkslategray;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 4px;
+  }
+
+  .Mehmet{
+    margin-left: 5%;
+    float: left;
+    width: 10%;
+    text-align: center;
+    }
+
+    .Mehmet-Cleaning{
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+
+  .Hatice{
+    margin-left: 15%;
+    float: left;
+    width: 10%;
+    text-align: center;
+    }
+
+    .Hatice-Cleaning{
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+
+.Ahmet{
+    margin-left: 15%;
+    float: left;
+    width: 10%;
+    text-align: center;
+}
+
+.Ahmet-Repair{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
+.Ayşe{
+    margin-left: 15%;
+    float: left;
+    width: 10%;
+    text-align: center;
+}
+
+.Ayşe-Programming{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+  img.home-logo{
+      width: 50px;
+      padding-bottom: 20px;
+  }
+
+  img.mehmet{
+      text-align: center;
+      width: 100px;
+      padding-top: 10%;
+  }
+
+  img.ucbucuk{
+    width: 100px;
+    padding-top: 1%;
+    text-align: center;
+  }
+
+  img.dort{
+    width: 100px;
+    padding-top: 1%;
+    text-align: center;
+  }
+
+  img.dortbucuk-repair{
+    width: 100px;
+    text-align: center;
+  }
+
+  img.bes-repair{
+    width: 100px;
+    padding-top: 1%;
+    text-align: center;
+  }
+  
+  .Mehmet h1{
+    color: darkslategray; 
+    text-align: center;
+  }
+
+  .Mehmet-Cleaning h1{
+    color: darkslategray;
+    text-align: center;
+  }
+
+  .Mehmet h2{
+    color: gray;
+    text-align: center;
+  }
+
+  .Mehmet-Cleaning h2{
+    color: gray;
+    text-align: center;
+  }
+
+  .Mehmet h3{
+    color: black;
+    text-align: center;
+  }
+
+  .Mehmet-Cleaning h3{
+    color: black;
+    text-align: center;    
+  }
+
+  .Hatice h1{
+    color: darkslategray;
+    text-align: center;
+  }
+
+  .Hatice-Cleaning h1{
+    color: darkslategray;
+    text-align: center;
+  }
+
+  .Hatice h2{
+    color: gray;
+    text-align: center;
+  }
+
+  .Hatice-Cleaning h2{
+    color: gray;
+    text-align: center;
+  }
+
+  .Hatice h3{
+    color: black;
+    text-align: center;
+  }
+
+  .Hatice-Cleaning h3{
+    color: black;
+    text-align: center;
+  }
+
+  .Ahmet h1{
+    color: darkslategray;
+    text-align: center;
+  }
+
+  .Ahmet-Repair h1{
+    color: darkslategray;
+    text-align: center;
+  }
+
+  .Ahmet h2{
+    color: gray;
+    text-align: center;
+  }
+
+  .Ahmet-Repair h2{
+    color: gray;
+    text-align: center;
+  }
+
+
+  .Ahmet h3{
+    color: black;
+    text-align: center;
+  }
+
+  .Ahmet-Repair h3{
+    color: black;
+    text-align: center;
+  }
+
+
+  .Ayşe h1{
+    color: darkslategray;
+    text-align: center;
+  }
+
+
+  .Ayşe-Programming h1{
+    color: darkslategray;
+    text-align: center;
+  }
+
+  .Ayşe h2{
+    color: gray;
+    text-align: center;
+  }
+
+  .Ayşe-Programming h2{
+    color: gray;
+    text-align: center;
+  }
+
+  .Ayşe h3{
+    color: black;
+    text-align: center;
+  }
+
+  .Ayşe-Programming h3{
+    color: black;
+    text-align: center;
+  }
+
+  h4{
+    color: darkslategray;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  hr{
+      width: 60%;
+      text-align: center;
+      padding:0 15%;
+      
+  }
+
+  .Ayşe-Programming hr{
+    width: 1%;
+    text-align: center;
+    padding:0 3%;
+  }
+
+  .Ahmet-Repair hr{
+    width: 1%;
+    text-align: center;
+    padding:0 3%;
+  }
+
+  .Hatice-Cleaning hr{
+    width: 1%;
+    text-align: center;
+    padding:0 5%;
+  }
+
+  .Mehmet-Cleaning hr{
+    width: 1%;
+    text-align: center;
+    padding:0 5%;
+  }
+
+  .header a.active{
+    border: 1px solid white;
+}
